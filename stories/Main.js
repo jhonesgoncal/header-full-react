@@ -13,16 +13,16 @@ storiesOf('FullHeader', module)
         <FullHeader title="TDD" subtitle="Whats is tested may never break." bgColor="#3299BB" />
     ))
     .add('with title, subtitle, bgColor, textColor', () => (
-        <FullHeader title="TDD" subtitle="Whats is tested may never break." bgColor="#3299BB"  textColor="#FF9900" />
+        <FullHeader title="TDD" subtitle="Whats is tested may never break." bgColor="orange"  textColor="black" />
     ))
-    .add('with title, subtitle, bgColor, textColor, font', () => (
-        <FullHeader title="TDD" subtitle="Whats is tested may never break." bgColor="#3299BB" textColor="#FF9900" font="cursive" />
+    .add('with title, subtitle, font', () => (
+        <FullHeader title="TDD" subtitle="Whats is tested may never break." font="cursive" />
     ))
     .add('with title, subtitle,  bgImg', () => (
-        <FullHeader title="TDD" subtitle="Whats is tested may never break." bgColor="#3299BB" 
+        <FullHeader title="TDD" subtitle="Whats is tested may never break." 
         bgImg="https://raw.githubusercontent.com/willianjusten/photo-examples/master/iceland-glacier.jpg"/>
     ))
-    .add('with title, subtitle, bgColor, video', () => (
-        <FullHeader title="TDD" subtitle="Whats is tested may never break." bgColor="#3299BB" 
-        video="http://callmenick.com/_development/video/full-screen-background-video/media/demo.mp4" />
+    .add('with title, subtitle,textColor video', () => (
+        <FullHeader title="TDD" subtitle="Whats is tested may never break."  textColor="blue"
+        video="https://www.w3schools.com/html/mov_bbb.mp4" />
     ))
